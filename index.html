@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css" />
+    <title>To Do List</title>
+  </head>
+  <body>
+    <div class="modal-outer">
+        <div class="modal-inner">
+            <div id="closemodal"><span>X</span></div>
+            <h2>Insert Task</h2>
+           <div class="form-container">
+            <form>
+                <input type="text" name="task">
+                <input type="submit" value="Submit">
+            </form>
+           </div>
+        </div>
+    </div>
+
+
+    <header>
+        <h1>To Do List</h1>
+    </header>
+    <div class="app">
+        <div class="addtask">
+            <p>Add Task</p>
+            <i class="fas fa-plus-square" id="addtask"></i>
+        </div>
+        
+        <ul class="list">
+            <!-- <li>
+                <p class="task_text">item 1 default</p>
+                <div class="btns">
+                    <button class="edit">
+                        <i class="fa fa-edit"></i>
+                    </button>
+                    <button class="delete">
+                        <i class="fa fa-trash-alt"></i>
+                    </button>
+                </div>
+            </li> -->
+        </ul>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
